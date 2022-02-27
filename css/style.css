@@ -67,7 +67,7 @@ nav ul li a:active{
   font-family: 'proxima nova';
   font-weight: bold;
 }
-h1,h2,span{
+h1,h2,span,h3,h4,p{
   position: relative;
   font-family: 'proxima nova';
   font-weight: bold;
@@ -84,12 +84,12 @@ h1,h2,span{
 h2{
   color: #FFFFFF;
 }
-img{
+.designer{
   width: 98.5vw;
-  position: absolute;
   left: 0;
   top: 150px;
   z-index: 1;
+  position: absolute;
 }
 span{
   color: #0EA2F6;
@@ -108,32 +108,146 @@ button{
 }
 #about{
   background-color: #3D3A50;
-  margin: auto;
-  display: flex;
   text-align: center;
+  width: 100%;
+  padding: 50px 0px;
+  
 }
 .title{
-  margin: auto;
   width: 100%;
   position: relative;
 }
-.about-me{
-  padding-top: 50px;
-  position: relative;
-  font-family: 'proxima nova';
-  font-weight: bold;
-  color: #0EA2F6;
+#about h1{
+  margin: auto 0;
   font-size: 80px;
+  color: #0EA2F6;
+  position: relative;
+  z-index: 2;
+}
+#about h2{
+  top: 50px;
+  left: 50%;
+  margin: auto 0;
+  font-size: 150px;
+  transform: translate(-50%,-50%);
+  color: #303041;
+  position: absolute;
+  z-index: 1;
+}
+.about-image{
+  width: 50%;
+  position: relative;
+}
+.ayoub-img{
+  width: 332px;
+  position: relative;
   z-index: 5;
 }
-.about-me-bg{ 
-  position:absolute;
-  display: block;
-  width: 100%;
-  font-family: 'proxima nova';
-  font-weight: bold;
-  color: #303041;
-  font-size: 150px;
-  top: 10px;
+.rectangle-img{
+  width: 332px;
+  position: absolute;
+  top: 15px;
+  left: 230px;
   z-index: 4;
+}
+.main{
+  display: flex;
+  margin-top: 100px;
+}
+.content{
+  width: 505px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+h3,h4{
+  font-weight: normal;
+  color: #FFFFFF;
+  font-size: 25px;
+}
+.ayoub-khenfouf-text{
+  font-size: 25px;
+}
+.sm-icons{
+  display: flex;
+  justify-content: space-between;
+}
+.sm-icons img{
+  width: 50px;
+}
+#skills{
+  text-align: center;
+  width: 100%;
+  padding: 50px 0px;
+  
+}
+#skills h1{
+  margin: auto 0;
+  font-size: 80px;
+  color: #0EA2F6;
+  position: relative;
+  z-index: 2;
+}
+#skills h2{
+  top: 50px;
+  left: 50%;
+  margin: auto 0;
+  font-size: 150px;
+  transform: translate(-50%,-50%);
+  color: #3D3A50;
+  position: absolute;
+  z-index: 1;
+}
+.cards{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 400px 400px 400px; 
+  gap: 20px 30px;
+  justify-content: center;
+  margin-top: 50px;
+}
+.skill-card{
+  border: 2px solid #3D3A50;
+  width: 350px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.skill-card h4{
+  font-size: 40px;
+  font-weight: bold;
+}
+.skill-card p{
+  font-size: 20px;
+  font-weight: normal;
+  color: #FFFFFF;
+}
+.skill-card img{
+  width: 80px;
+}
+#projects{
+  text-align: center;
+  width: 100%;
+  padding: 50px 0px;
+  
+}
+#projects h1{
+  margin: auto 0;
+  font-size: 80px;
+  color: #0EA2F6;
+  position: relative;
+  z-index: 2;
+}
+#projects h2{
+  top: 50px;
+  left: 50%;
+  margin: auto 0;
+  font-size: 150px;
+  transform: translate(-50%,-50%);
+  color: #3D3A50;
+  position: absolute;
+  z-index: 1;
 }
