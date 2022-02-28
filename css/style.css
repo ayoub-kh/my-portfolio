@@ -26,10 +26,12 @@
   font-size: 25px;
 
 }
+body{
+  overflow-x: hidden;
+}
 main{
   margin-top: 70px;
   background-color: #303041;
-  
 }
 p{
   width: 300px;
@@ -232,7 +234,7 @@ h3,h4{
   text-align: center;
   width: 100%;
   padding: 50px 0px;
-  
+  margin-bottom: 100px;
 }
 #projects h1{
   margin: auto 0;
@@ -250,4 +252,83 @@ h3,h4{
   color: #3D3A50;
   position: absolute;
   z-index: 1;
+}
+.projects-scrolling-cards{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 20px 0px 0px 20px;
+}
+.project-card{
+  background-color: #3D3A50;
+  width: 360px;
+  height: 320px;
+  position: relative;
+  margin: 10px;
+}
+.project-card img{
+  height: 290px;
+  position: absolute;
+  bottom: 0%;
+  left: 25%;
+}
+#contact{
+  text-align: center;
+  width: 100%;
+  padding: 50px 0px;
+  background-color: #0EA2F6;
+}
+#contact h1{
+  color: #FFFFFF;
+  font-size: 80px;
+}
+#contact h2{
+  color: #FFFFFF;
+  font-size: 30px;
+  font-weight: normal;
+}
+.contact-infos{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 20px 0px 0px 20px;
+}
+.contact-infos p{
+  margin-top: 50px;
+  color: #FFFFFF;
+  font-weight: normal;
+  font-size: 20px;
+}
+footer{
+  background-color: #303041;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 100%;
+  position: relative;
+}
+footer p{
+  color: #FFFFFF;
+  font-weight: normal;
+  font-size: 20px;
+  width: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+footer div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+footer div img{
+  margin: 10px;
 }
